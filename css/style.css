@@ -1,0 +1,96 @@
+@font-face {
+    font-family: SeratUltra;
+    src: url(fonts/SeratUltra.ttf);
+}
+
+@font-face {
+    font-family: Millenia;
+    src: url(fonts/Millenia.ttf);
+}
+
+*{
+    user-select: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #1b1c22;
+}
+
+
+
+.centered{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.centered header{
+    font-size: 70px;
+    font-family: SeratUltra;
+}
+
+.centered p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Millenia;
+}
+
+
+
+.socials{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 35px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.github{
+    transition: 0.4s;
+    margin-right: 10px;
+}
+
+.discord{
+    transition: 0.4s;
+    margin-right: 10px;
+}
+
+.twitter{
+    transition: 0.4s;
+}
+
+
+.github:hover{
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.discord:hover{
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+@media (max-width: 377px) {
+    .socials{
+        font-size: 14px;
+        transition: 0.4s;
+    }
+}
