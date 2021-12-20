@@ -21,6 +21,9 @@ body{
     background: #1b1c22;
 }
 
+canvas {
+  margin: 0 auto;
+}
 
 
 .centered{
