@@ -19,12 +19,17 @@
 
 body{
     background: #1b1c22;
+    overflow: hidden;
 }
 
 canvas {
   margin: 0 auto;
 }
 
+
+.wrap{
+    overflow: hidden;
+}
 
 .centered{
     position: absolute;
